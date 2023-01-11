@@ -1,0 +1,86 @@
+@media (max-width:575px){
+header .menu ul{
+   display: block;
+   flex-direction: column;
+   width: 100%;
+   left: 0;
+   top:80px;
+   position:fixed;
+   background-color: rgba(0, 0, 0, 0.623);
+   display: none;
+}
+.menu ul {
+  padding: 0px;
+}
+.menu li{
+  padding: 10px 0px;
+  margin: none;
+}
+
+.offer-22, .offer-223, .coffee-22, .offer-221{
+  width: 100%;
+  }
+.offer-22 h6{
+  width: 50%;
+  text-align: center;
+  margin: 0px 25%;
+  }
+.coffee-22 img{
+  width: 30%;
+  }
+.offer-223 img{
+  width: 60%;
+  }
+.box2{
+  width: 45%;
+  margin: 0px 27%;
+  }
+.offer-221 img{
+  width: 60%;
+  }
+.offer-221 h5{
+  width: 50%;
+  margin: 0px 20%;
+  }
+.offer-221 .p{
+  width:50%;
+  margin: 0px 20%;
+  font-size: 16px;
+  }
+.box226 .box12{
+  width: 100%;
+}
+.box28, .box3{
+  display: none;
+}
+.centent9 h6{
+  flex: none;
+  margin-left:125px;
+}
+header button{
+  display: block;
+}
+}
+
+@media (max-width:767px){
+  header .menu ul{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+    top:80px;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.623);
+    display: none;
+  }
+  header button{
+    display: block;
+  }
+  
+}
+@media (min-width:768px) and (max-width:1200px){
+  header button .toggel{
+    display: none;
+  }
+  
+}
